@@ -16,7 +16,8 @@ const productos = [
 export default function MetodoMap() {
   return (
     <div>
-      <h1>Lista de Productos</h1>
+      <h1>Método Map en React</h1>
+      <h3>Listado de productos <hr /></h3>
       <ul>
         {productos.map(producto => (
           <li key={producto.id}>
